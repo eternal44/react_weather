@@ -3,6 +3,7 @@ export default function( state = [], action) {
   switch(action.type){
   case FETCH_WEATHER:
 
+    // remember:  don't mutate state... but can append values?
     // es5 version
     // return state.concat([action.payload.data]);
 
